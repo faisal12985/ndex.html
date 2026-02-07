@@ -1,0 +1,86 @@
+body{
+margin:0;
+height:100vh;
+background:linear-gradient(135deg,#ffdde1,#ee9ca7);
+font-family:sans-serif;
+overflow:hidden;
+}
+
+/* center screen */
+.center{
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+/* start button */
+#startBtn{
+padding:18px 35px;
+font-size:20px;
+border:none;
+border-radius:30px;
+background:#ff4d6d;
+color:white;
+cursor:pointer;
+}
+
+/* hidden */
+.hidden{
+display:none;
+}
+
+/* main page */
+#mainPage{
+text-align:center;
+padding-top:80px;
+}
+
+.title{
+color:white;
+font-size:40px;
+}
+
+/* big tulip */
+.tulip{
+font-size:120px;
+margin-top:40px;
+animation:float 3s infinite ease-in-out;
+}
+
+@keyframes float{
+0%{transform:translateY(0)}
+50%{transform:translateY(-15px)}
+100%{transform:translateY(0)}
+}
+
+/* falling roses */
+.rose{
+position:absolute;
+top:-50px;
+font-size:30px;
+animation:fall linear forwards;
+}
+
+@keyframes fall{
+to{
+transform:translateY(110vh);
+}
+}
+
+
+.rose{
+position:absolute;
+top:-50px;
+font-size:28px;
+animation:fall linear forwards;
+pointer-events:none;
+}
+
+.rose{
+position:absolute;
+top:-50px;
+font-size:28px;
+animation:fall linear forwards;
+pointer-events:none;
+}
